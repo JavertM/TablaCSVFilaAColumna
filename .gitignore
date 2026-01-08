@@ -1,0 +1,36 @@
+# --- Dependencias ---
+node_modules/
+.pnpm-debug.log*
+
+# --- Compilación y Salidas ---
+dist/
+build/
+*.tsbuildinfo
+
+# --- Archivos de Salida del Script (Resultados) ---
+# Ignoramos los archivos generados con el formato salida-AAAAMMDD-HHMMSS.csv
+salida-*.csv
+
+# --- Logs y Temporales ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- Configuración de Entorno (Seguridad) ---
+.env
+.env.local
+.env.*.local
+
+# --- Herramientas de Windows 11 ---
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Herramientas de Editor (VS Code) ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json

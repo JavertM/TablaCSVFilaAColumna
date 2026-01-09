@@ -1,0 +1,6 @@
+{
+  "tipo": "SEQUENTIAL",
+  "codificacion": "utf-8",
+  "ignorarLineasVacias": true,
+  "camposPorRegistro": 5
+}
